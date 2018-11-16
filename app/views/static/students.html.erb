@@ -1,0 +1,138 @@
+<div id="content01">
+</br>
+    <h1 class="main-title">Coucou les étudiants</h1>
+  </br> </br>
+    <div class="msg-wrapper">
+        <div class="green-msg-bubble">
+            Alors cette piscine ?
+        </div>
+        <div class="blue-msg-bubble">
+            J'ai vraiment bu la tasse xD
+        </div>
+        <div class="green-msg-bubble">
+            Moi aussi, tu connais THP ? C'est pareil mais en mieux <br>
+            Va voir sur <a href="https://www.thehackingproject.org/">www.thehackingproject.org</a> ya toutes les infos
+        </div>
+        <div class="blue-msg-bubble">
+            Ah ouais trop cool ! Je m'inscris tout de suite !
+        </div>
+
+        <div style="padding-bottom: 100%;"
+    <div class="form-wrapper">
+      <p>Entre ton mail ici pour recevoir les dernières infos.</p>
+      <%= form_tag("/students", method: "post", class: "form") do %>
+          <%= label_tag(:email, "Email :") %>
+          <%= text_field_tag(:email) %>
+          <%= submit_tag("Recevoir la newsletter") %>
+      <% end %>
+    </div>
+</div>
+    </div>
+
+
+
+
+
+<div class="container-fluid">
+<div class="wrapper-t">
+
+    <div class="wrapper-t" style="background-color:rgba(250, 250, 250, 0.9);">
+
+                Avis aux bacheliers qui souhaites une plus value sur son cv et une idée d'orientation
+
+                THP est une formation qui, en 3 mois, à plein temps, vous apportera des connaissances actionnables pour vous permettre de voir plus loin.
+
+                Apprends à coder
+                en communauté
+    
+  </div>
+
+
+      <div class="wrapper-t" style="background-color:rgba(250, 250, 250, 0.9);">
+
+                Une communauté soudée
+Vous appartenez à une nouvelle famille pendant votre formation
+Chez THP, vous travaillerez dur pour atteindre les objectifs que l'on vous fixera. Certains jours vous pourrez experimenter des journées de 14 heures de travail. Pour tenir le rythme le groupe auquel vous appartiendrez devra être soudé et l'entre-aide sera de rigueur !
+
+Nous croyons dur comme fer que seul on va plus vite, ensemble on va plus loin. Vous devrez donc vous retrouver quotidienement avec votre groupe pour travailler toute la journée ensemble.
+    </div>
+
+    <div class="card-avatar">
+          <%= image_tag("https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",size: "450x450", :alt => "rss feed", class: "card-avatar") %>
+    </div>
+
+</div>
+
+<div class="wrapper-t">
+
+
+      <div class="card-avatar">
+          <%= image_tag("https://images.pexels.com/photos/262488/pexels-photo-262488.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",size: "450x450", :alt => "rss feed", class: "card-avatar") %>
+    </div>
+      <div class="wrapper-t" style="background-color:rgba(250, 250, 250, 0.9);">
+
+             La communauté comme professeur
+800 personnes sont prêtes à vous soutenir !
+
+Où sommes-nous ?
+Nous sommes présents dans les 12 plus grandes villes françaises
+
+Une caution ?
+Tu paies une caution de 314.15€ que tu peux récupérer à la fin si tu le souhaites.
+
+    </div>
+
+
+      <div class="wrapper-t" style="background-color:rgba(250, 250, 250, 0.9);">
+
+           
+Intense, et en groupe
+T.H.P, ce n'est pas de tous repos, mais vos camarades seront là pour vous aider, et souvent jusque très tard ;)
+
+Une caution
+Nous nous investissons beaucoup pour vous : la caution est un moyen d'être sûr que vous resterez investis vous aussi !
+
+En anglais
+L'anglais est la langue de la programmation. Nous vous recommandons de ne pas faire THP si vous n'avez pas de bases (10/20 au bac suffit).
+
+Pas de locaux, ni de professeurs
+Espaces de coworking, bibliothèques, appartement, devriendront rapidement vos nouveaux lieux de vie.
+
+    </div>
+</div>
+
+
+<div class="wrapper-t">
+      <div class="wrapper-t" style="background-color:rgba(250, 250, 250, 0.9);">
+
+           
+Une journée type chez THP
+
+
+Vous vous réveillez encore grogui de votre week-end et c’est déjà le moment de vous y remettre ! Nous sommes le lundi et cela fait 3 semaines que vous avez commencé The Hacking Project. 
+Vous avez donné RDV à votre groupe dans une bibliothèque. Vous y arrivez plus ou moins à l’heure et vous vous mettez à travailler sur le programme de la journée : 
+
+ Le matin vous ingérez de l’information sur ce qu'est une API et comment fonctionne les requêtes Get, Post, Delete, Update. En bref, vous apprenez.
+
+ Le midi vous mangez avec votre groupe un sandwich et vous discutez des projets que vous avez fait la semaine précédente.
+ </div> 
+
+<div class="card-avatar">
+          <%= image_tag("https://images.pexels.com/photos/533189/pexels-photo-533189.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",size: "450x450", :alt => "rss feed", class: "card-avatar") %>
+    </div>
+
+ <div class="wrapper-t" style="background-color:rgba(250, 250, 250, 0.9);">
+
+ L’après-midi, vous découvrez comment exploiter concrètement une API. Par exemple vous devez créer un Bot (petit programme qui automatise des tâches humaines manuelles) qui vous permettra de suivre toute l’actualité sur Elon Musk, le milliardaire americain qui lance des fusées vers Mars. Votre mission sera par exemple de faire en sorte que votre bot like automatiquement tous les postes twitter d’Elon Musk. 
+
+ Après cela vous irez chercher le cours de la bourse en temps réel via une API pour créer un algorithme de trading (vous verrez ce n’est pas très compliqué). 
+
+ En fin de journée vous rentrez chez vous pour vous reposer. Les plus téméraires continuent à travailler chez eux sur les notions de la journée ou de la semaine précédente.
+
+
+  </div>
+
+</div>
+</div>
+</div>
+

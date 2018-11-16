@@ -1,0 +1,148 @@
+
+/*
+html, body{
+  background: #dee8d5;
+  background: linear-gradient(to top, #a9bcd0, #dee8d5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  max-width: 100%;
+
+}
+*/
+@import url("//fonts.googleapis.com/css?family=Julius+Sans+One");
+@import url("//fonts.googleapis.com/css?family=M+PLUS+1p");
+
+
+
+
+#content {
+  background-image: url("https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#content01 {
+  background-image:
+   linear-gradient(
+   rgba(255, 255, 255, 0.95),
+   rgba(255, 255, 255, 0.5)
+   ),
+   url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#content02 {
+  background-image: url("https://images.pexels.com/photos/245838/pexels-photo-245838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+.main-title {
+  font-family: 'Julius Sans One';
+  text-align: center;
+  font-size: 70px;
+  margin-top: 15%;
+  margin-bottom: 40px;
+  color: black;
+
+}
+.wrapper-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-top: 15%;
+}
+
+.wrapper-t{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  text-align: justify;
+  align-items: center;
+  margin-top: 5px;
+  padding-left: 3%;
+  padding-right: 3%;
+
+  font-family: 'M PLUS 1p';
+}
+
+.wrapper-text{
+  font-family: 'M PLUS 1p';
+  text-align: justify;
+  padding: 20px 20px;
+  max-width: 50%;
+  border-radius:30px 30px 30px 0;
+  background: rgba(33, 179, 38, 0.5);
+  display: flex;
+  align-items: center;
+
+}
+
+.msg-wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.green-msg-bubble{
+  font-family: 'M PLUS 1p';
+  text-align: justify;
+  padding: 20px 20px;
+  max-width: auto;
+  border-radius:30px 30px 30px 0;
+  background: rgba(33, 179, 38, 0.6);
+  float: left;
+  margin-top: 10px;
+
+}
+
+.blue-msg-bubble{
+  font-family: 'M PLUS 1p';
+  text-align: justify;
+  padding: 20px 20px;
+  max-width: auto;
+  border-radius:30px 30px 0 30px;
+  background: rgba(33, 135, 179, 0.6);
+  float:right;
+  margin-top: 10px;
+  text-align: right;
+
+}
+
+
+.wrapper-img{
+  float: right;
+}
+
+p {
+
+}
+
+
+.card-avatar {
+  border-radius: 50%;
+  text-align: center;
+  padding-auto: 3%;
+  margin-top:3%;
+}
